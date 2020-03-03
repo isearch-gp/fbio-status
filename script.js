@@ -1,13 +1,18 @@
 $(document).ready(function() {
 	var config = {
 		uptimerobot: {
-			api_keys: [
+			api_keys: [ 
+				"m784437559-03d69d607e96335e6052e362",  //Place your first Key Here - app
+				"m784437563-3180dfa269b28789a8f786f6", //Place your next key here! <- app demo
+				"m784438298-02f8d06be96a9c9e468770d4", //Place your next key here! <- API GUI
+				"m784438306-8c3c187da5a48781f6b4c6f4", //Place your next key here! <- API Google
+				"m784438301-f480bb16afc2bdcd045fc3aa" //Place your next key here! <- API SERP
 			],
 			logs: 1
 		},
 		github: {
-			org: 'flybaseio',
-			repo: 'status'
+			org: 'isearch-gp',
+			repo: 'fbio-status'
 		}
 	};
 	var status_text = {
